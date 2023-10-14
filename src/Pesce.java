@@ -2,10 +2,13 @@ public class Pesce {
     private String nome;
     private String razza;
     private int id;
+    private static int maxId;
 
     public Pesce(String nome, String razza) {
         this.nome = nome;
         this.razza = razza;
+        this.id=this.maxId;
+        maxId++;
     }
 
     public String getNome() {
@@ -28,13 +31,8 @@ public class Pesce {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-
     public String toString() {
-        return "{ nome = " + nome + " , razza = " + razza + " }";
+        return "{ nome = \"" + nome + "\" , razza = \"" + razza + "\" }";
     }
 
     public Pesce clone(){
