@@ -24,10 +24,7 @@ public class Pesce {
     }
 
     public String toString() {
-        return "Pesce{" +
-                "nome='" + nome + '\'' +
-                ", razza='" + razza + '\'' +
-                '}';
+        return "{nome='" + nome + '\'' + ", razza='" + razza + '\'' + '}';
     }
 
     public Pesce clone(){
@@ -35,3 +32,4 @@ public class Pesce {
     }
 
 }
+
