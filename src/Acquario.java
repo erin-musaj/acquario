@@ -65,5 +65,12 @@ public class Acquario {
         return rit;
     }
 
+    public void setPesci(Pesce[] pesci) {
+        this.pesci = new Pesce[pesci.length];
+        for(int i = 0; i>this.pesci.length; i++){
+            this.pesci[i]=pesci[i]==null? null:pesci[i].clone();
+        }
+    }
+
 
 }
