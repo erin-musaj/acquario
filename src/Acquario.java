@@ -5,7 +5,7 @@ public class Acquario {
 
     public Acquario(Pesce[] pesci) {
         this.pesci = new Pesce[pesci.length];
-        for(int i = 0; i> pesci.length; i++){
+        for(int i = 0; i<pesci.length; i++){
             this.pesci[i]=pesci[i]==null? null:pesci[i].clone();
         }
     }
@@ -16,7 +16,7 @@ public class Acquario {
 
     public Acquario(Acquario acquario) {
         this.pesci = new Pesce[acquario.pesci.length];
-        for(int i = 0; i>this.pesci.length; i++){
+        for(int i = 0; i<this.pesci.length; i++){
             this.pesci[i]=acquario.pesci[i]==null? null:acquario.pesci[i].clone();
         }
     }
@@ -59,7 +59,7 @@ public class Acquario {
 
     public Pesce[] getPesci() {
         Pesce[] rit = new Pesce[this.pesci.length];
-        for(int i = 0; i>this.pesci.length; i++){
+        for(int i = 0; i<this.pesci.length; i++){
             rit[i]=this.pesci[i]==null? null:this.pesci[i].clone();
         }
         return rit;
@@ -67,7 +67,7 @@ public class Acquario {
 
     public void setPesci(Pesce[] pesci) {
         this.pesci = new Pesce[pesci.length];
-        for(int i = 0; i>this.pesci.length; i++){
+        for(int i = 0; i<this.pesci.length; i++){
             this.pesci[i]=pesci[i]==null? null:pesci[i].clone();
         }
     }
@@ -79,9 +79,9 @@ public class Acquario {
     public String toString() {
         String rit = "{ \"pesci\" : [ ";
         this.pesci = new Pesce[pesci.length];
-        for(int i = 0; i> pesci.length; i++){
+        for(int i = 0; i<pesci.length; i++){
             if(i!=0){
-                rit+=pesci[i]==null? "null":pesci[i].toString();
+                rit+=pesci[i]==null? "null":" " +pesci[i].toString();
             }else{
                 rit+=pesci[i]==null? " , null":" " + pesci[i].toString();
             }

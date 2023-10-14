@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9b87c0-3656-4052-8cc9-325a98dfca09" name="Changes" comment="feat: costruttori Acquario">
-      <change beforePath="$PROJECT_DIR$/src/Acquario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Acquario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pesce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pesce.java" afterDir="false" />
+    <list default="true" id="5a9b87c0-3656-4052-8cc9-325a98dfca09" name="Changes" comment="feat: toString Acquario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/acquario/Acquario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/acquario/Acquario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/acquario/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/acquario/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/acquario/Pesce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/acquario/Pesce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +116,39 @@
       <option name="project" value="LOCAL" />
       <updated>1697299613457</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: removePesce Acquario">
+      <option name="closed" value="true" />
+      <created>1697300814522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697300814522</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: getPesci Acquario">
+      <option name="closed" value="true" />
+      <created>1697301046436</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697301046436</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: setPesci Acquario">
+      <option name="closed" value="true" />
+      <created>1697301169721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697301169721</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: toString Acquario">
+      <option name="closed" value="true" />
+      <created>1697301643777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697301643777</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,7 +157,24 @@
     <MESSAGE value="feat: clone" />
     <MESSAGE value="feat: Pesce class" />
     <MESSAGE value="feat: costruttori Acquario" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: costruttori Acquario" />
+    <MESSAGE value="feat: addPesce Acquario" />
+    <MESSAGE value="feat: removePesce Acquario" />
+    <MESSAGE value="feat: getPesce Acquario" />
+    <MESSAGE value="feat: getPesci Acquario" />
+    <MESSAGE value="feat: setPesci Acquario" />
+    <MESSAGE value="feat: toString Acquario" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: toString Acquario" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/acquario$Main.ic" NAME="Main Coverage Results" MODIFIED="1697297450859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
