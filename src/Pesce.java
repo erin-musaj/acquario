@@ -30,4 +30,8 @@ public class Pesce {
                 '}';
     }
 
+    public Pesce clone(){
+        return new Pesce(this.nome, this.razza);
+    }
+
 }
