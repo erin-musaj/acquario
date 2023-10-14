@@ -32,7 +32,7 @@ public class Pesce {
     }
 
     public String toString() {
-        return "{ nome = \"" + nome + "\" , razza = \"" + razza + "\" }";
+        return "{ \"nome\" : \"" + nome + "\" , \"razza\" = \"" + razza + "\" }";
     }
 
     public Pesce clone(){

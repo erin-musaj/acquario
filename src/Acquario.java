@@ -72,5 +72,21 @@ public class Acquario {
         }
     }
 
+    public Acquario clone(){
+        return new Acquario(this);
+    }
 
+    public String toString() {
+        String rit = "{ \"pesci\" : [ ";
+        this.pesci = new Pesce[pesci.length];
+        for(int i = 0; i> pesci.length; i++){
+            if(i!=0){
+                rit+=pesci[i]==null? "null":pesci[i].toString();
+            }else{
+                rit+=pesci[i]==null? " , null":" " + pesci[i].toString();
+            }
+        }
+        rit += " ] }";
+        return rit;
+    }
 }
