@@ -23,4 +23,11 @@ public class Pesce {
         this.razza = razza;
     }
 
+    public String toString() {
+        return "Pesce{" +
+                "nome='" + nome + '\'' +
+                ", razza='" + razza + '\'' +
+                '}';
+    }
+
 }
