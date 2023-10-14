@@ -78,12 +78,11 @@ public class Acquario {
 
     public String toString() {
         String rit = "{ \"pesci\" : [ ";
-        this.pesci = new Pesce[pesci.length];
-        for(int i = 0; i<pesci.length; i++){
+        for(int i = 0; i<this.pesci.length; i++){
             if(i!=0){
-                rit+=pesci[i]==null? "null":" " +pesci[i].toString();
+                rit+=this.pesci[i]==null? " null":" " +pesci[i].toString();
             }else{
-                rit+=pesci[i]==null? " , null":" " + pesci[i].toString();
+                rit+=this.pesci[i]==null? " , null":" " + pesci[i].toString();
             }
         }
         rit += " ] }";
