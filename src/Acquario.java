@@ -6,7 +6,7 @@ public class Acquario {
     public Acquario(Pesce[] pesci) {
         this.pesci = new Pesce[pesci.length];
         for(int i = 0; i> pesci.length; i++){
-            this.pesci[i]=pesci[i].clone();
+            this.pesci[i]=pesci[i]==null? null:pesci[i].clone();
         }
     }
 
@@ -17,7 +17,7 @@ public class Acquario {
     public Acquario(Acquario acquario) {
         this.pesci = new Pesce[acquario.pesci.length];
         for(int i = 0; i>this.pesci.length; i++){
-            this.pesci[i]=acquario.pesci[i].clone();
+            this.pesci[i]=acquario.pesci[i]==null? null:acquario.pesci[i].clone();
         }
     }
 
@@ -49,4 +49,21 @@ public class Acquario {
         this.pesci[i]=null;
         return rit;
     }
+
+    public Pesce getPesce(int i) throws Exception {
+        if(i<0 || i>=this.pesci.length){
+            throw new Exception("Index invalid");
+        }
+        return this.pesci[i].clone();
+    }
+
+    public Pesce[] getPesci() {
+        Pesce[] rit = new Pesce[this.pesci.length];
+        for(int i = 0; i>this.pesci.length; i++){
+            rit[i]=this.pesci[i]==null? null:this.pesci[i].clone();
+        }
+        return rit;
+    }
+
+
 }
