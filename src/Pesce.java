@@ -1,6 +1,7 @@
 public class Pesce {
     private String nome;
     private String razza;
+    private int id;
 
     public Pesce(String nome, String razza) {
         this.nome = nome;
@@ -23,8 +24,17 @@ public class Pesce {
         this.razza = razza;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
     public String toString() {
-        return "{nome='" + nome + '\'' + ", razza='" + razza + '\'' + '}';
+        return "{ nome = " + nome + " , razza = " + razza + " }";
     }
 
     public Pesce clone(){
